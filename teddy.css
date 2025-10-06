@@ -1,27 +1,51 @@
 body{
-  background-color: blanchedalmond;  
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    
 }
 
 .sectionstyle{
-  float
+    float: left;
+    margin-left:5px;
+    width: 48%;
+}
+
+.imglady{
+    width: 80%;
+    height: auto;
+}
+.imgnature{
+    width: 80%;
+    height: auto;
 }
 
 img{
-  padding: 20px;
-  border-radius: 80%;
-  height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 button{
-  background-color: blue;
-  color: white;
-  padding: 10px;
-  border-radius: 20px;
-  border: none;
-  cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 button:hover{
-  background-color: green;
-  text-transform: uppercase;
+    background-color: green;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 5px 10px 18px #555555;
+    transform: scale(1.1);
 }
